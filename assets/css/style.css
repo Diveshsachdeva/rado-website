@@ -1,0 +1,531 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+/* header coding  */
+.section {
+    height: 40px;
+    margin-top: -2pc;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+}
+
+section h3 {
+    color: white;
+    margin-left: 60pc;
+    font-weight: lighter;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+section h4 {
+    color: white;
+    margin-left: 70pc;
+    font-weight: lighter;
+    justify-content: space-around;
+    margin-top: -2pc;
+    cursor: pointer;
+}
+
+#i1 {
+    margin-left: 8px;
+    font-weight: lighter;
+}
+
+header {
+    background-color: #111;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    margin-top: 2pc;
+}
+
+header ul li {
+    color: white;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+
+
+}
+
+header ul li:hover {
+
+    margin-top: 2px;
+    color: white;
+
+}
+
+header ul {
+    display: flex;
+    justify-content: flex-start;
+    gap: 18px;
+    margin-left: 2pc;
+}
+
+header ul a {
+    text-decoration: none;
+}
+
+#logoimg {
+    height: 40px;
+    margin-top: px;
+    margin-left: 10pc;
+
+
+}
+
+#magnifer {
+    color: white;
+    margin-top: 0.5pc;
+    margin-left: 29pc;
+    font-size: 1.2pc;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+#magnifer:hover {
+    color: #727272;
+}
+
+/* just below header  section 2 */
+
+section h1 {
+    color: white;
+    position: absolute;
+    margin-top: -17pc;
+    margin-left: 3pc;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 15px;
+
+}
+
+section button {
+
+    height: 50px;
+    width: 180px;
+    color: white;
+    background-color: transparent;
+    border: solid 1px white;
+    border-radius: 50px;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -20pc;
+    font-size: 18px;
+    margin-left: 5pc;
+    cursor: pointer;
+
+}
+.below-img
+{
+
+}
+
+section button:hover {
+    background-color: white;
+    transition: 1s;
+    color: black;
+
+}
+
+/* Explore OUR LATEST CREATIONS */
+.div1 {
+    background-color: #111;
+    height: 300px;
+    width: 100%;
+    margin-top: -3pc;
+}
+
+div h1 {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    position: absolute;
+    margin-left: 27.5pc;
+    margin-top: 5pc;
+    font-size: 2.5pc;
+}
+
+div pre {
+    color: white;
+    position: absolute;
+    margin-top: 10pc;
+    margin-left: 15pc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+
+
+/* slider coding */
+
+#slider {
+    overflow: hidden;
+}
+
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+
+#slider img {
+    height: 400px;
+    width: 8%;
+    float: left;
+
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+
+    20% {
+        left: 0;
+    }
+
+    25% {
+        left: -100%;
+    }
+
+    45% {
+        left: -100%;
+    }
+
+    50% {
+        left: -200%;
+    }
+
+    70% {
+        left: -200%;
+    }
+
+    75% {
+        left: -300%;
+    }
+
+    95% {
+        left: -300%;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+/* captain cook high ceramic */
+.div2 {
+    background-color: whitesmoke;
+    height: 300px;
+    width: 100%;
+
+}
+
+.div2 h5 {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    position: absolute;
+    margin-left: 19.5pc;
+    margin-top: 6pc;
+    font-size: 2.5pc;
+}
+
+
+.div2 pre {
+    color: white;
+}
+
+.div2 h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* product section */
+#productsection {
+    background-color: white;
+    height: 400px;
+}
+
+#productsection img {
+    padding-left: 3pc;
+    padding-top: 2pc;
+}
+
+#productsection img:hover {
+    /* transform: scale(0.9); */
+    margin-bottom: -15px;
+    transition: 0.9s;
+    cursor: pointer;
+}
+
+.span1 {
+    position: absolute;
+    margin-top: 16pc;
+    margin-left: -13pc;
+    font-size: 20px;
+    color: white;
+}
+
+.P1 {
+    position: absolute;
+    margin-top: 5pc;
+    margin-left: 6pc;
+    color: rgb(204, 196, 196);
+    font-weight: 300;
+}
+
+.P2 {
+    position: absolute;
+    margin-top: 5pc;
+    margin-left: 22pc;
+    color: rgb(204, 196, 196);
+    font-weight: 300;
+}
+
+.P3 {
+    position: absolute;
+    margin-top: 5pc;
+    margin-left: 38pc;
+    color: rgb(204, 196, 196);
+    font-weight: 300;
+}
+
+
+.P4 {
+    position: absolute;
+    margin-top: 5pc;
+    margin-left: 54pc;
+    color: rgb(204, 196, 196);
+    font-weight: 300;
+}
+
+.P5 {
+    position: absolute;
+    margin-top: 5pc;
+    margin-left: 69.5pc;
+    color: rgb(204, 196, 196);
+    font-weight: 300;
+}
+
+/* dark mode theme  */
+:root {
+    /* Colors */
+    --orange-color: rgb(246, 99, 53);
+    --primary-color: rgb(27, 31, 41);
+    --text-color: rgb(96, 97, 99);
+    --secondary-color: rgb(237, 242, 252);
+    --white-color: rgb(255, 255, 255);
+    --para-color: rgb(96, 97, 99);
+    --dark-color: rgb(27, 31, 41);
+    --yellow-color: rgb(253, 184, 19);
+}
+
+
+
+.dark-mode {
+    --primary-color: #274C5C;
+    --secondary-color: rgb(27, 31, 41);
+
+}
+
+.div2,
+#productsection,
+.div1,
+header,
+section {
+
+    background: var(--primary-color);
+
+
+}
+
+
+#icon {
+    font-size: 2rem;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 73pc;
+    margin-top: -3.2pc;
+}
+
+.moon {
+    color: var(white);
+    color: white;
+}
+
+.sun {
+    color: var(--yellow-color);
+}
+
+section img {}
+
+/* flooter */
+@media screen and (max-width:600px) {
+    #slider img {
+
+        width: 10%;
+        height: 150px;
+
+    }
+
+    .div1 pre {
+
+
+        margin-left: 1px;
+        font-size: 9.1px;
+
+        position: absolute;
+        margin-top: 15pc;
+
+
+    }
+
+    .div1 h1 {
+
+
+
+        font-size: 37px;
+        margin-left: 0.1pc;
+        position: absolute;
+        margin-top: 8pc;
+
+
+
+    }
+
+    header {
+        margin-top: 5pc;
+        height: 50px;
+
+    }
+
+    header ul {
+        text-align: center;
+        margin-left: -1.5pc;
+        font-size: 12px;
+
+
+    }
+
+    header ul li {
+        margin-top: 2pc;
+    }
+
+    #logoimg {
+        margin-left: -12pc;
+        margin-top: -4pc;
+    }
+
+    #magnifer {
+        margin-left: 4.5pc;
+        margin-top: 2.5pc;
+
+
+    }
+
+    .section {
+        display: none;
+    }
+
+    section button {
+        margin-top: 5pc;
+
+    }
+
+    #icon {
+
+        margin-left: 19pc;
+        margin-top: -0.2pc;
+        height: 25px;
+
+    }
+
+    .div2 h5 {
+        font-size: 35px;
+        margin-left: 1pc;
+        margin-top: 2pc;
+
+    }
+
+    .div2 pre {
+        font-size: 9.8px;
+        margin-left: -1px;
+    }
+
+    #productsection {
+
+
+        height: 1700px;
+        margin-top: -8pc;
+
+
+
+    }
+
+    section img {
+        margin-left: 2pc;
+
+    }
+
+    .span1 {
+        position: absolute;
+        margin-top: 19pC;
+        text-align: center;
+    }
+
+    .P1 {
+        position: absolute;
+        margin-top: 4pc;
+        margin-left: 9pc;
+
+    }
+
+    .P2 {
+        position: absolute;
+        margin-top: 4pc;
+        margin-left: 9pc;
+
+    }
+
+    .P3 {
+        position: absolute;
+        margin-top: 4pc;
+        margin-left: 9pc;
+
+    }
+
+    .P4 {
+        position: absolute;
+        margin-top: 4pc;
+        margin-left: 9pc;
+
+    }
+
+    .P5 {
+        position: absolute;
+        margin-top: 4pc;
+        margin-left: 9pc;
+
+    }
+
+    section img {
+        margin-top: 4pc;
+    }
+    .below-img
+    {
+        margin-left: -0.5pc;
+    }
+}
